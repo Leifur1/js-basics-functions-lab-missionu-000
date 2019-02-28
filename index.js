@@ -22,7 +22,10 @@ function distanceFromHqInFeet (distance) {
   }
 }
 
-function distanceTravelledInFeet (distance) {
-  let dist = distance * 264
-  return dist
+function distanceTravelledInFeet (start, distance) {
+  if ( start < destination) {
+    return (destination - start) * 264
+  } else {
+    return (start - destination) * 264
+  }
 }
