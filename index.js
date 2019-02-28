@@ -10,7 +10,7 @@ function distanceFromHqInBlocks (distance) {
     let blocks = 42 - distance
     return blocks
   }
-}
+};
 
 function distanceTravelledInFeet (distance) {
   if (distance > 42) {
