@@ -24,4 +24,5 @@ function distanceFromHqInFeet (distance) {
 
 function distanceTravelledInFeet (distance) {
   let dist = distance
+  return dist
 }
