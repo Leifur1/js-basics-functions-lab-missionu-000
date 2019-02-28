@@ -2,9 +2,9 @@
 
 function distanceFromHqInBlocks (distance) {
   if (distance < 42) {
-    let distance = 42 - distance;
+    let dist = 42 - distance;
   } else {
-    let distance = distance % 42
+    let dist = distance % 42
   }
-  return distance
+  return dist
 }
