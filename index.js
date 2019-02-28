@@ -1,14 +1,16 @@
 // Code your solution in this file!
-let dist;
+let blocks;
 
 function distanceFromHqInBlocks (distance) {
   if (distance > 42) {
-    let dist = distance % 42
-    return dist
+    let blocks = distance % 42
+    return blocks
   } else {
-    let dist = 42 - distance
-    return dist
+    let blocks = 42 - distance
+    return blocks
   }
 }
 
-// function distanceTravelledInFeet ()
+function distanceTravelledInFeet (distance) {
+  
+}
