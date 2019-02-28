@@ -1,6 +1,7 @@
 // Code your solution in this file!
 let blocks;
 let feet;
+let fare;
 
 function distanceFromHqInBlocks (distance) {
   if (distance > 42) {
@@ -27,5 +28,11 @@ function distanceTravelledInFeet (start, destination) {
     return (destination - start) * 264
   } else {
     return (start - destination) * 264
+  }
+}
+
+function calculatesFarePrice(start, destination) {
+  if (start - destination <= 1) {
+    let fare = 0
   }
 }
