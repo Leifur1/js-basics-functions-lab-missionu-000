@@ -12,7 +12,7 @@ function distanceFromHqInBlocks (distance) {
   }
 }
 
-function distanceTravelledInFeet (distance) {
+function distanceFromHqInFeet (distance) {
   if (distance > 42) {
     let feet = ((distance - 42) * 264)
     return feet
