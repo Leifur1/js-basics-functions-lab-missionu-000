@@ -22,7 +22,7 @@ function distanceFromHqInFeet (distance) {
   }
 }
 
-function distanceTravelledInFeet (start, distance) {
+function distanceTravelledInFeet (start, destination) {
   if ( start < destination) {
     return (destination - start) * 264
   } else {
