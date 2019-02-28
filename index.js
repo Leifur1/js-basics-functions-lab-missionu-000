@@ -17,7 +17,7 @@ function distanceTravelledInFeet (distance) {
     let feet = (distance % 42) * 264
     return feet
   } else {
-    let feet = (42 - distance) *264
+    let feet = (42 - distance) * 264
     return feet
   }
 }
