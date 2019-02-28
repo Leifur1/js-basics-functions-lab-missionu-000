@@ -14,10 +14,10 @@ function distanceFromHqInBlocks (distance) {
 
 function distanceTravelledInFeet (distance) {
   if (distance > 42) {
-    let feet = (distance % 42) * 264
+    let feet = ((distance % 42) * 264)
     return feet
   } else {
-    let feet = (42 - distance) * 264
+    let feet = ((42 - distance) * 264)
     return feet
   }
 }
