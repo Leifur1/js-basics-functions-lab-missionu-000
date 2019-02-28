@@ -21,3 +21,14 @@ function distanceFromHqInFeet (distance) {
     return feet
   }
 }
+
+function distanceTravelledInFeet (distance) {
+  let dist = distance 
+}
+
+
+
+
+
+
+
