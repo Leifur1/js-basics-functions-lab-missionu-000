@@ -1,5 +1,6 @@
 // Code your solution in this file!
 
 function distanceFromHqInBlocks (distance) {
-  42 % distance;
+  let dist = 42 % distance;
+  return dist
 }
