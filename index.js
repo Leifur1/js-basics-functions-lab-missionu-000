@@ -6,5 +6,4 @@ function distanceFromHqInBlocks (distance) {
   } else {
     dist = distance % 42
   }
-  return dist
 }
