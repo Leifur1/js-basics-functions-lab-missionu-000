@@ -12,5 +12,5 @@ function distanceFromHqInBlocks (distance) {
 }
 
 function distanceTravelledInFeet (distance) {
-  
+
 }
